@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TextView Nama -->
+        <TextView
+            android:id="@+id/txtnama"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_height="25dp"
+            android:text="Nama : "
+            android:layout_marginBottom="5dp"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="16sp" />
+
+        <!-- TextView Alamat -->
+        <TextView
+            android:id="@+id/txtalamat"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Alamat : "
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="16sp" />
+
+        <!-- TextView Nomor -->
+        <TextView
+            android:id="@+id/txtnomor"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:text="Nomor : "
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="16sp" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/daftar_icon"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@mipmap/ic_launcher" />-->
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

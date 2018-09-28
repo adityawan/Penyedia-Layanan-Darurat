@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/login"
+        app:showAsAction="never"
+        android:title="Login"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+    </item>
+    <item
+        android:id="@+id/saran"
+        android:icon="@drawable/saran"
+        app:showAsAction="never"
+        android:title="Saran"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+    </item>
+
+</menu>

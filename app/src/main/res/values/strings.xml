@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Penyedia Layanan Darurat</string>
+
+    <string name="menu_polisi">Polisi</string>
+    <string name="menu_rumahsakit">Rumah Sakit</string>
+    <string name="menu_damkar">Damkar</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_saran">Saran</string>
+    <string name="menu_login">Login</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="puskesmas">Puskesmas</string>
+    <string name="balakar">Balakar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
